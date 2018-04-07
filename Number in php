@@ -1,0 +1,43 @@
+
+<html>
+    <head>
+    <title>
+        Number in php
+    </title>
+    <body>
+    <?php
+      $num1=25;
+      $num2=5;
+        /* basics  mathematical operation*/ 
+    echo "addition is " . ($num1 + $num2) . "<br/>";//addition of number.    
+    echo "substraction is " . ($num1 - $num2) . "<br/>";//substraction of number.
+    echo "multiplication is " . ($num1 * $num2) . "<br/>";//multiplication of number.
+    echo "division is " . ($num1 / $num2) . "<br/>";//Division of number.
+    echo "remainder is " . ($num1 % $num2) . "<br/>";//remainder of number.    
+        
+        
+        /* basics  mathematical function */
+    echo "absolute value " . abs(-450) . "<br/>";//used to get absolute value.
+    echo "power is " . pow(2,10) . "<br/>";/*used tp get power of number first operand is "BASE VALUE"                             ie. 2 and secomd is "POWER" ie.10*/    
+        
+    echo "random Number " . rand() . "<br/>";//used to get random values.
+    echo "random Number in range " . rand(20,50) . "<br/>";//used get random values in between range.
+    echo "remainder of number" . fmod(27,5) . "<br/>";//used to get remainder.
+    echo "square root of number" . sqrt(225) . "<br/>";//used to get square root of number.    
+    echo "round of number" . round(225.233,2) . "<br/>";//used to round of value.
+    echo "ceil of number" . ceil(225.233) . "<br/>";//used to get next higher value.
+    echo "floor of number" . floor(225.233) . "<br/>";//used to get next lowest value.
+    echo "if  number is integer print 1:" . is_int(225.233) . "<br/>";// used to check                                                                 number is integer or not  
+    echo "if  number is float print 1:" . is_float(225.233) . "<br/>";// used to check                                                                 number is float or not        
+    echo "if  variable is numeric print 1:" . is_numeric(225.233) . "<br/>";    
+        // used to check variable  is numeric or not
+    ?>
+        
+        
+        
+        
+    </body>
+    
+    </head>
+</html>
+    
