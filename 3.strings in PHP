@@ -1,0 +1,28 @@
+<html>
+<head><title>strings in PHP</title></head>
+<body>
+    <?php
+    
+    $first="Good Morning!";//created first string variable.
+    $second=" Have a nice Day!";
+    $third=$first;//used to assign a values.
+    echo $third;//print variable third to page.
+    echo "<br/>";//used to give break move to  new line.
+    
+    $third .=$second;//concatenation of two string using " (.)dot operator".
+    echo "{$third}<br/>"; 
+    
+    
+    echo strtoupper($third);//convert string to uppercase.
+    echo"<br/>";
+    echo strtolower($third);//convert string to lowercase.
+    echo"<br/>";
+    echo ucwords($third);//convert  first letter of string to uppercase.
+    
+    echo"<br/>";
+    echo $third;//all to above function make no change in actual string.
+    
+    ?>
+    
+    </body>
+</html>
